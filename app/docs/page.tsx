@@ -40,7 +40,7 @@ export default function FridgeCheckPage() {
       </form>
       <div className="mt-5">
         {recommendations.map((rec) => (
-          <div key={rec.id} className="bg-white p-3 rounded shadow mb-2">
+          <div key={rec.id} className="bg-black p-3 rounded shadow mb-2">
             {rec.title}
           </div>
         ))}
